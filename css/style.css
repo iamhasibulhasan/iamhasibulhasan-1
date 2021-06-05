@@ -23,6 +23,12 @@ Version      : 1.0
 * ----------------------------------------------------------------------------------------
 */
 
+@import url(https://fonts.googleapis.com/css2?family=Varela&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Comfortaa:wght@100;200;300;400;500;600;700&display=swap);
+
+body {
+  font-family: 'Comfortaa', display;
+}
 html,
 body {
     height: 100%
@@ -36,6 +42,7 @@ body {
     color: #333;
     background: #eee;
     overflow-x: hidden;
+    font-family: 'Comfortaa', cursive;
 }
 
 h1,
