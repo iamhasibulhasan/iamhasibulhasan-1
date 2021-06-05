@@ -748,6 +748,62 @@ a {
 .typed{
     color: #26A69A;
 }
+/* Download CV Button */
+.download a { 
+    text-decoration: none;
+}
+
+
+.download {
+	position: absolute;
+	top: calc(50%  -30px);
+	right: calc(50% - 115px);
+	width: 200px;
+	height: 60px;
+	box-shadow: inset 0 -1px 0 rgba(0,0,0,.09),inset 0 1px 0 rgba(255,255,255,.04), 0 0 1px rgba(0,0,0,.3), 0 0 10px rgba(0,0,0,.1);
+	border-radius: 100px;
+    background-color: #26A69A;
+	line-height: 60px;
+	text-align: center;
+	letter-spacing: 3px;
+	overflow: hidden;
+	transition: all .3s cubic-bezier(.67,.13,.1,.81), transform .15s cubic-bezier(.67,.13,.1,.81);
+}
+.download:hover {
+	right: calc(50% - 200px);
+	width: 400px;
+}
+.download:active {
+	transform: translateY(3px);
+}
+.download:before, .download:after {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+	transition: all .3s cubic-bezier(.67,.13,.1,.81);
+}
+.download:before {
+	content: 'DOWNLOAD CV';
+    color: white;
+}
+.download:after {
+	content: 'Click to download my CV';
+	top: -60px;
+	opacity: 0;
+    color: white;
+}
+.download:hover:after {
+	top: 0px;
+	opacity: 1;
+}
+.download:hover:before {
+	top: 60px;
+	opacity: 0;
+}
+
 
   
 
