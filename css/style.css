@@ -811,8 +811,26 @@ a {
 	opacity: 0;
 }
 
-
-  
-
+/* responsive cv button */
+ 
+@media screen and (max-width: 480px) {
+    .download{
+        display: none;
+    }
+    .mbl-cv{
+        display: block;
+        width: 150px;
+        margin: auto;
+        background-color: #26A69A!important;
+        border-radius: 20%;
+        border: none;
+        margin-bottom: -45px;
+	    }
+  }
+  @media screen and (min-width: 480px) {
+    .mbl-cv{
+        display: none;
+    }
+  }
 
 
