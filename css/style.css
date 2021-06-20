@@ -613,6 +613,10 @@ a {
 .social-links ul li {
     display: inline-block;
 }
+.social-links ul li a:hover {
+    transition: 0.3s;
+    transform: scale(1.5);
+}
 
 .social-links ul li a {
     font-size: 18px;
